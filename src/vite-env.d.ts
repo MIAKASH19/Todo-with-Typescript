@@ -1,6 +1,6 @@
 /// <reference types= "vite/client"/>
 
-type TodoItemType = {
+export type TodoItemType = {
     title : string;
     isCompleted: boolean;
     id : string;
